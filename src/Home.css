@@ -1,0 +1,32 @@
+.main-image {
+  height: 700px;
+  background-image: url("./fdedeeb3f76f9cfc9e42edb162362ba2.jpg");
+  background-size: contain;
+  animation-name: cover;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes cover {
+  0% {
+    background-image: url("./fdedeeb3f76f9cfc9e42edb162362ba2.jpg");
+    opacity: 0;
+  }
+
+  35% {
+    background-image: url("./fdedeeb3f76f9cfc9e42edb162362ba2.jpg");
+    opacity: 0;
+  }
+
+  100% {
+    background-image: url("./fdedeeb3f76f9cfc9e42edb162362ba2.jpg");
+    opacity: 1;
+  }
+}
+
+/* .didmount-image {
+    height: 700px;
+    background-image: url("./fdedeeb3f76f9cfc9e42edb162362ba2.jpg");
+    background-size: contain;
+    animation-name: cover;
+} */

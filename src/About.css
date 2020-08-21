@@ -1,0 +1,64 @@
+
+.about {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.about > p {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+}
+
+h6 {
+    margin: 0;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.8;
+}
+
+.strok {
+    width: 60%;
+    border-bottom: 0.5px #919191 solid;
+    position: fixed;
+    margin-top: 550px;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    margin: 40px 0 40px 0;
+}
+
+.photo {
+    height: 400px;
+    background-size: cover;
+}
+
+.text {
+    margin-left: 50px;
+}
+
+.button {
+    /* position: fixed; */
+    height: 30px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #525252;
+    border-top: .5px solid #ffffff;
+    transition: ease-out .2s;
+    cursor: pointer;
+}
+
+.button:hover {
+    border-top: .5px solid #919191;
+}

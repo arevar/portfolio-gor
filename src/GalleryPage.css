@@ -1,0 +1,34 @@
+/* .gallery {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gallery > p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.portfolio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.portfolio > img {
+    height: 300px;
+    margin: auto;
+    padding-bottom: 10px;
+    background-size: cover;
+} */
+
+.box {
+    transition: transform .2s;
+    border: 5px solid white;
+}
+
+.box:hover {
+    transform: scale(1.1) ;
+}
